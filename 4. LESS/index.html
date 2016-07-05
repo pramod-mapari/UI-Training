@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>HTML Assignment</title>
+<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+<!-- Main Container Start Here -->
+<section class="container">
+  <header class="clearfix">
+    <section class="logo col-3 mob-clearfix"><a href="#" title="Globant"><img src="img/logo.png" alt="Globant"></a>
+      <div class="menu-btn visible-xs clearfix"> <i class="fa fa-search"></i> <i href="#" class="fa fa-bars"></i> </div>
+    </section>
+    <section class="col-9 hidden-xs">
+      <div class="head-rg">
+        <nav>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Our Support</a></li>
+          </ul>
+        </nav>
+        <section class="user-name"> <img src="img/user_img.jpg" alt=""> John Doe <i class="fa fa-chevron-circle-down"></i> </section>
+      </div>
+    </section>
+  </header>
+  <section class="clearfix">
+    <aside class="left-sidebar col-3">
+      <ul class="add-book-wrapper clearfix hidden-xs">
+        <li>
+          <button type="button" class="add-book"><i class="fa fa-plus"></i> Add a Book</button>
+        </li>
+      </ul>
+      <ul class="main-nav clearfix">
+        <li><a href="#"><i class="fa fa-book"></i> Now Reading</a></li>
+        <li><a href="#" class="active"><i class="fa fa-globe"></i> Browse</a></li>
+        <li><a href="#"><i class="fa fa-shopping-cart"></i> Buy Books</a></li>
+        <li><a href="#"><i class="fa fa-star"></i> Favourite Books</a></li>
+        <li><a href="#"><i class="fa fa-th-list"></i> Wishlist</a></li>
+        <li><a href="#"><i class="fa fa-clock-o"></i> History</a></li>
+      </ul>
+      <ul class="add-book-wrapper clearfix visible-xs hidden-sm hidden-md hidden-lg">
+        <li>
+          <button type="button" class="add-book"><i class="fa fa-plus"></i> Add a Book</button>
+        </li>
+      </ul>
+      <ul class="personal-categories clearfix hidden-xs">
+        <li><a href="#">Must Read Titles</a></li>
+        <li class="orange-dise"><a href="#" >Best Of List</a></li>
+        <li class="blue-dise"><a href="#" >Classic Novels</a></li>
+        <li class="purple-dise"><a href="#" >Non Fiction</a></li>
+      </ul>
+      <ul class="history-list clearfix hidden-xs">
+        <li class="history">
+          <p>You added <span>Fight Club</span> by <span>Chuck Palahniuk</span> to your <span>Must Read Titles</span>.</p>
+          <p>24 minutes ago</p>
+        </li>
+        <li class="history">
+          <p>You added <span>The Trial</span> by <span>Franz Kafka</span> to your <span>Must Read Titles</span>.</p>
+          <p>48 minutes ago</p>
+        </li>
+      </ul>
+    </aside>
+    <section class="col-9">
+      <header class="page-header">
+        <section class="page-title">
+          <h1>Browse Available Books</h1>
+        </section>
+        <section class="search-fliter-section clearfix">
+          <section class="tab-menu mob-clearfix">
+            <ul>
+              <li><a href="#" class="active">All Books</a></li>
+              <li><a href="#">Most Recent</a></li>
+              <li><a href="#">Most Popular</a></li>
+              <li><a href="#">Free Books</a></li>
+            </ul>
+          </section>
+          <section class="relative search-warpper hidden-xs">
+            <input type="search" placeholder="Enter Keywords" value="" id="q" class="search-field" required >
+            <label class="search-label" for="q"><i class="fa fa-search"></i></label>
+          </section>
+        </section>
+      </header>
+      <section class="container-warpper clearfix">
+        <div class="column-warpper">
+            <div class="column">
+              <div class="pro-img"><img src="img/pro_img1.jpg" alt=""></div>
+              <div class="pro-details">
+                <div class="pro-name">Jewels of Nizam</div>
+                <div class="by-name">by Geeta Devi</div>
+                <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="pro-img"><img src="img/pro_img2.jpg" alt=""></div>
+              <div class="pro-details">
+                <div class="pro-name">Cakes & Bakes</div>
+                <div class="by-name">by Sanjeev Kapoor</div>
+                <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="pro-img"><img src="img/pro_img3.jpg" alt=""></div>
+              <div class="pro-details">
+                <div class="pro-name">Jamie’s Kitchen</div>
+                <div class="by-name">by Jamie Oliver</div>
+                <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star-half-o"></i></div>
+              </div>
+            </div>
+            <div class="clearfix visible-sm"></div>
+            <div class="column">
+              <div class="pro-img"><img src="img/pro_img4.jpg" alt=""></div>
+              <div class="pro-details">
+                <div class="pro-name">Inexpensive Family Meals</div>
+                <div class="by-name">by Simon Holst</div>
+                <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i  class="fa fa-star-o"></i></div>
+              </div>
+            </div>
+            <div class="clearfix visible-md"></div>
+            <div class="column">
+              <div class="pro-img"><img src="img/pro_img5.jpg" alt=""></div>
+              <div class="pro-details">
+                <div class="pro-name">Paleo Slow Cooking</div>
+                <div class="by-name">by Chrissy Gower</div>
+                <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="pro-img"><img src="img/pro_img6.jpg" alt=""></div>
+              <div class="pro-details">
+                <div class="pro-name">Cook Like an Italian</div>
+                <div class="by-name">by Tobie Puttock</div>
+                <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i  class="fa fa-star-o"></i></div>
+              </div>
+            </div>
+            <div class="clearfix visible-sm"></div>
+            <div class="column">
+              <div class="pro-img"><img src="img/pro_img7.jpg" alt=""></div>
+              <div class="pro-details">
+                <div class="pro-name">Suneeta Vaswani</div>
+                <div class="by-name">by Geeta Devi</div>
+                <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="pro-img"><img src="img/pro_img8.jpg" alt=""></div>
+              <div class="pro-details">
+                <div class="pro-name">Jamie Does</div>
+                <div class="by-name">by Jamie Oliver</div>
+                <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i  class="fa fa-star-o"></i></div>
+              </div>
+            </div>
+            <div class="clearfix visible-md"></div>
+            <div class="column">
+              <div class="pro-img"><img src="img/pro_img9.jpg" alt=""></div>
+              <div class="pro-details">
+                <div class="pro-name">amie’s italy</div>
+                <div class="by-name">by Jamie Oliver</div>
+                <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+              </div>
+            </div>
+            <div class="clearfix visible-sm"></div>
+            <div class="column">
+              <div class="pro-img"><img src="img/pro_img10.jpg" alt=""></div>
+              <div class="pro-details">
+                <div class="pro-name">Vegetables Cookbook</div>
+                <div class="by-name">by Matthew Biggs</div>
+                <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i></div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="pro-img"><img src="img/pro_img1.jpg" alt=""></div>
+              <div class="pro-details">
+                <div class="pro-name">Jewels of Nizam</div>
+                <div class="by-name">by Geeta Devi</div>
+                <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="pro-img"><img src="img/pro_img2.jpg" alt=""></div>
+              <div class="pro-details">
+                <div class="pro-name">Cakes & Bakes</div>
+                <div class="by-name">by Sanjeev Kapoor</div>
+                <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+              </div>
+            </div>
+            <div class="clearfix visible-md"></div>
+            <div class="clearfix visible-sm"></div>
+            <div class="column">
+              <div class="pro-img"><img src="img/pro_img3.jpg" alt=""></div>
+              <div class="pro-details">
+                <div class="pro-name">Jamie’s Kitchen</div>
+                <div class="by-name">by Jamie Oliver</div>
+                <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star-half-o"></i></div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="pro-img"><img src="img/pro_img4.jpg" alt=""></div>
+              <div class="pro-details">
+                <div class="pro-name">Inexpensive Family Meals</div>
+                <div class="by-name">by Simon Holst</div>
+                <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i  class="fa fa-star-o"></i></div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="pro-img"><img src="img/pro_img5.jpg" alt=""></div>
+              <div class="pro-details">
+                <div class="pro-name">Paleo Slow Cooking</div>
+                <div class="by-name">by Chrissy Gower</div>
+                <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></div>
+              </div>
+            </div>
+            <div class="clearfix visible-sm"></div>
+            <div class="column">
+              <div class="pro-img"><img src="img/pro_img6.jpg" alt=""></div>
+              <div class="pro-details">
+                <div class="pro-name">Cook Like an Italian</div>
+                <div class="by-name">by Tobie Puttock</div>
+                <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i  class="fa fa-star-o"></i></div>
+              </div>
+            </div>
+            <div class="clearfix visible-md"></div>
+            <div class="column">
+              <div class="pro-img"><img src="img/pro_img7.jpg" alt=""></div>
+              <div class="pro-details">
+                <div class="pro-name">Suneeta Vaswani</div>
+                <div class="by-name">by Geeta Devi</div>
+                <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="pro-img"><img src="img/pro_img8.jpg" alt=""></div>
+              <div class="pro-details">
+                <div class="pro-name">Jamie Does</div>
+                <div class="by-name">by Jamie Oliver</div>
+                <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i  class="fa fa-star-o"></i></div>
+              </div>
+            </div>
+            <div class="clearfix visible-sm"></div>
+            <div class="column">
+              <div class="pro-img"><img src="img/pro_img9.jpg" alt=""></div>
+              <div class="pro-details">
+                <div class="pro-name">amie’s italy</div>
+                <div class="by-name">by Jamie Oliver</div>
+                <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="pro-img"><img src="img/pro_img10.jpg" alt=""></div>
+              <div class="pro-details">
+                <div class="pro-name">Vegetables Cookbook</div>
+                <div class="by-name">by Matthew Biggs</div>
+                <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i></div>
+              </div>
+            </div>
+        </div>
+      </section>
+    </section>
+  </section>
+  <section class="mob-footer-top visible-xs hidden-sm hidden-md hidden-lg">
+    <ul class="history-list clearfix">
+      <li class="history">
+        <p>You added <span>Fight Club</span> by <span>Chuck Palahniuk</span> to your <span>Must Read Titles</span>.</p>
+        <p>24 minutes ago</p>
+      </li>
+      <li class="history">
+        <p>You added <span>The Trial</span> by <span>Franz Kafka</span> to your <span>Must Read Titles</span>.</p>
+        <p>48 minutes ago</p>
+      </li>
+    </ul>
+    <ul class="mob-link clearfix">
+      <li><a href="#">Help Center</a> <a href="#">Our Support</a></li>
+    </ul>
+  </section>
+  <footer class="clearfix">
+    <section class="pull-right">
+      <div class="pull-left helpBtn"><a href="#"><i class="fa fa-question-circle"></i></a></div>
+      <div class="pull-right settingBtn"><a href="#"><i class="fa fa-cog"></i></a></div>
+    </section>
+  </footer>
+</section>
+<!-- Main Container End Here --> 
+<script src="js/jquery.min.js"></script> 
+<script>
+    	$(document).ready(function(e) {
+            $('.main-nav a, .tab-menu a').on('click', function(event){
+				event.preventDefault();
+				$(this).addClass('active');
+				$(this).parent('li').siblings().find('a').removeClass('active');
+			});
+			
+			  var menuVisible = false;
+			  $('.fa-bars').click(function() {
+				if (menuVisible) {
+				  $('.left-sidebar').slideUp();
+				  menuVisible = false;
+				  return;
+				}
+				$('.left-sidebar').slideDown();
+				menuVisible = true;
+			  });
+			  $('.left-sidebar').click(function() {
+				$(this).slideUp();
+				menuVisible = false;
+			  });
+        });
+    </script>
+</body>
+</html>
